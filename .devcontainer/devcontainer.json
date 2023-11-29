@@ -1,0 +1,8 @@
+{
+  "name": "Backend Dev Container",
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "metrics",
+  "workspaceFolder": "/app",
+  "extensions": ["ms-python.python"],
+  "postCreateCommand": "pre-commit install"
+}
